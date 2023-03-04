@@ -4,11 +4,6 @@ import { useDispatch } from "react-redux";
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
 
-import {
-  createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
-} from "../../utils/firebase/firebase.utils";
-
 import { signUpStart } from "../../store/user/user.action";
 
 import "./sign-up-form.styles.scss";
@@ -33,7 +28,7 @@ const SignUpForm = () => {
     event.preventDefault();
 
     if (password !== confirmPassword) {
-      alert("password do not match");
+      alert("passwords do not match");
       return;
     }
 
@@ -51,6 +46,7 @@ const SignUpForm = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
+
     setFormFields({ ...formFields, [name]: value });
   };
 
