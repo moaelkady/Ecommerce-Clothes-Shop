@@ -10,13 +10,13 @@ This is a project built with React, Redux, Firebase database, Netlify hosting, a
 * Learn More
 
 ## Installation
-1 Clone the repository: git clone https://github.com/moaelkady/Ecommerce-Clothes-Shop.git
-2 Install dependencies: npm install
+1- Clone the repository: git clone https://github.com/moaelkady/Ecommerce-Clothes-Shop.git
+2- Install dependencies: npm install
 
 ## Usage
-1 Start the server: npm start
-2 Open http://localhost:3000 in your browser
-3 Explore the different pages and features of the ecommerce platform
+1- Start the server: npm start
+2- Open http://localhost:3000 in your browser
+3- Explore the different pages and features of the ecommerce platform
 
 ## Build
 ### `npm run build`
