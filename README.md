@@ -6,6 +6,7 @@ This is a project built with React, Redux, Firebase database, Netlify hosting, a
 * Installation
 * Usage
 * Build
+* Try it
 * Contributing
 * Learn More
 
@@ -26,6 +27,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Try it
+you can try it live here [Shop Clothes](https://roaring-crepe-be01c8.netlify.app/)
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
